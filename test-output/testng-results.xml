@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-07T23:06:17 IST" name="Default suite" finished-at="2024-09-07T23:06:33 IST" duration-ms="15975">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Test@41e68d87]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-09-07T23:06:17 IST" name="Default test" finished-at="2024-09-07T23:06:33 IST" duration-ms="15975">
+      <class name="TestRunner.Test">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.Test@41e68d87]" started-at="2024-09-07T23:06:17 IST" name="setUpClass" finished-at="2024-09-07T23:06:18 IST" duration-ms="503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2864f887]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Test@41e68d87]" started-at="2024-09-07T23:06:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-07T23:06:23 IST" duration-ms="4871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["succesful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Test@41e68d87]" started-at="2024-09-07T23:06:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-07T23:06:26 IST" duration-ms="3106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials with DDT"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Test@41e68d87]" started-at="2024-09-07T23:06:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-07T23:06:29 IST" duration-ms="3175" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials with DDT"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<[My Account]> but was:<[Account Login]>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<[My Account]> but was:<[Account Login]>
+at junit.framework.Assert.assertEquals(Assert.java:100)
+at junit.framework.Assert.assertEquals(Assert.java:107)
+at StepDefinition.Login_step.user_should_see_the(Login_step.java:147)
+at ✽.user should see the "My Account"(file:///C:/Users/sravani/eclipse-workspace/Opencart_cucumber/./Features/Login_feature.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.Test@41e68d87]" started-at="2024-09-07T23:06:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-07T23:06:33 IST" duration-ms="3740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successful login with valid credentials with DDT"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.Test@41e68d87]" started-at="2024-09-07T23:06:33 IST" name="tearDownClass" finished-at="2024-09-07T23:06:33 IST" duration-ms="503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

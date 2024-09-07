@@ -1,0 +1,23 @@
+<extentreports>
+<configuration>
+<theme>dark</theme>
+<encoding>UFT-8</encoding>
+<protocol>https</protocol>
+<documentTitle>Cucumber framework</documentTitle>
+<reportName>Cucumber Test Reports</reportName>
+<dateFormat>yyyy-MM-dd</dateFormat>
+<timeFormat>HH:mm:ss</timeFormat>
+
+<scripts>
+<![CDATA[$(document).ready(function(){});
+]]>
+</scripts>
+<!-- cuctom styles -->
+<styles>
+<![CDATA[]]]>
+
+</styles>
+
+</configuration>
+
+</extentreports>
